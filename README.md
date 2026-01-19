@@ -1,14 +1,29 @@
-# Financial-analyst-portfolio
-This portfolio showcases Excel-based financial analysis, reporting automation, and modeling projects aligned with FP&a and reporting workflows.
-## Projects
-- **Reporting Automation (Excel + Power Query + VBA):** Automated P&L and Balance Sheet refresh and consolidation.
-- **Financial Reporting Dashboard (Pivot + Slicers):** Interactive variance analysis and KPI tracking.
-- **Integrated 3-Statement Model:** Connected IS, BS, and CF with scenario toggles (Base/Upside/Downside).
+# Reporting automation (Excel + Power Query + VBA)
 
-## Tools & Methods
-- Advanced Excel (Power Query, Power Pivot, Pivot Tables, VBA)
-- KPI storytelling, variance analysis, scenario logic
-- Clean modeling structure and audit-ready reporting
+# Reporting Automation — P&L & Balance Sheet
 
-## Notes
-All datasets are anonymized and for demonstration purposes only.
+**Goal:** Automate monthly reporting refresh and consolidation for P&L and Balance Sheet.
+
+## Highlights
+- **Power Query:** Data ingestion, cleaning, and model refresh.
+- **Power Pivot:** Data model with relationships for IS/BS.
+- **VBA Macros:** One-click refresh and export to reporting packs.
+- **Outcome:** Reduced manual effort and ensured consistent, audit-ready outputs.
+
+## Files
+- `reporting_automation.xlsm` — macro-enabled workbook
+- `screenshots/automation_overview.png` — process flow and output sample
+
+## How to use
+1. Open the workbook and enable macros.
+2. Update the sample data in the `Data` sheet.
+3. Click `Refresh All` to update queries and pivots.
+4. Use the `Export` macro to generate reporting outputs.
+
+## Data notes
+- Sample data is anonymized and synthetic.
+- Replace with your own dataset in the `Data` sheet.
+
+## KPIs & Outputs
+- P&L summary, BS summary, period-over-period variance
+- Exported reporting pack (PDF/Excel) via macro
